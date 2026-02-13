@@ -1,3 +1,4 @@
+//C:\Users\DELL\Documents\Cadt\cadty3t2\Flutter\my_app\lib\model\user\user.dart
 ///
 /// This model describes a  BlaBlaCar user.
 ///

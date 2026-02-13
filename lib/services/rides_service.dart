@@ -14,7 +14,8 @@ class RidesService {
         .where((ride) => ride.departureLocation == departure)
         .toList();
   }
-
+ 
+ 
   //
   //  filter the rides starting for the given requested seat number
   //
