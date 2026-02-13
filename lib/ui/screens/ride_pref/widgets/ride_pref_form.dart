@@ -1,3 +1,4 @@
+import 'package:blabla/ui/widgets/actions/bla_button.dart';
 import 'package:flutter/material.dart';
  
 import '../../../../model/ride/locations.dart';
@@ -37,6 +38,7 @@ class _RidePrefFormState extends State<RidePrefForm> {
   @override
   void initState() {
     super.initState();
+    
     // TODO 
   }
 
@@ -53,13 +55,20 @@ class _RidePrefFormState extends State<RidePrefForm> {
   // ----------------------------------
   // Build the widgets
   // ----------------------------------
+  
   @override
   Widget build(BuildContext context) {
     return Column(
         mainAxisAlignment: MainAxisAlignment.start,
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [ 
- 
-        ]);
+           BlaButton(
+          label: "Search",
+          primary:true,
+          leadingIcon: Icons.search,
+          onTap: () {},
+          ),
+          
+          ]);
   }
 }
